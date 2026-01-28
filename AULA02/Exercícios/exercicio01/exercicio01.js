@@ -13,7 +13,7 @@ abono = Number(
 );
 resultado = salario + abono;
 console.log(
-  "O valor que voce possui para receber é de : " + resultado.toFixed(2) + "R$",
+  "O valor que voce possui para receber é de : " + resultado.toFixed(1) + "R$",
 );
 console.log(
   "Muito obrigado por usar meu simulador salarial. Espero ter ajudado!!",

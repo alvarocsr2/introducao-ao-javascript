@@ -52,19 +52,19 @@ function mediaSemestral() {
   if (media >= 8.0) {
     console.log(
       "Parabéns ! você atingiu a média : " +
-        media.toFixed(2) +
+        media.toFixed(1) +
         " e passou de semestre!",
     );
   } else if (media < 5.0) {
     console.log(
       "Poxa, você atingiu a média " +
-        media.toFixed(2) +
+        media.toFixed(1) +
         " portanto, nao passou de semestre. ",
     );
   } else {
     console.log(
       "Voce atingiu a média " +
-        media.toFixed(2) +
+        media.toFixed(1) +
         " então está de recuperacao, neste semestre.",
     );
   }
